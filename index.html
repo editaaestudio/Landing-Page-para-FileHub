@@ -10,68 +10,90 @@
 <body>
     <header>
         <nav>
-            <span>FileHub</span>
-                <ul>
+            <span class="logo">File<span class="logo2">Hub</span></span>
+                <ul class="menu">
                     <li><a>Home</a></li>
                     <li><a>Planos</a></li>
                     <li><a>Contato</a></li>
                     <li><a>Login</a></li>
                 </ul>
-                <a>GitHub</a>
+                <a class="assine">Assine Já</a>
 
         </nav>
     </header>
     <main>
-        <section>
-            <header>
-                <span>novidade</span>
-                <h1>Design e programação, impulsionando a criatividade com recursos inovadores.</h1>
-                <hr/>
-                <h2>Explore o mundo do Design com um empurrãozinho!</h2>
+        <div class="principal">
+            <section class="hero">
+                <header class="hero-conteudo">
+                    <span class="destaque">novidade</span>
+                    <h1>Design e programação, impulsionando a criatividade com recursos inovadores.</h1>
+                    <hr/>
+                    <h2 class="hero-subtitulo">Explore o mundo do Design com um empurrãozinho!</h2>
+                </header>
+                <div class="hero-imagens-container">
+                    <figure><img src="assets/1.jpg"/></figure>
+                    <figure><img src="assets/2.jpg"/></figure>
+                    <figure><img src="assets/3.jpg"/></figure>
+                    <figure><img src="assets/4.jpg"/></figure>
+                    <figure><img src="assets/5.jpg"/></figure>
+                    <figure><img src="assets/6.jpg"/></figure>
+                    <figure><img src="assets/7.jpg"/></figure>
+                    <figure><img src="assets/8.jpg"/></figure>
+                    <figure><img src="assets/9.jpg"/></figure>
+                    <figure><img src="assets/10.jpg"/></figure>
+                    <figure><img src="assets/11.jpg"/></figure>
+                    <figure><img src="assets/12.jpg"/></figure>
+                </div>
+            </section>
+        </div>
+        <section class="FeedBacks">
+            <header class="feed-cabecalho">
+                <span class="destaque">FeedBacks</span>
+                <h2 class="feed-titulo">Confira nossos Planos</h2>
+                <p class="feed-sub">Dê uma olhada nos planos mais recomendados!</p>
             </header>
-            <div>
-                <figure><img src="assets/1.jpg"/></figure>
-                <figure><img src="assets/2.jpg"/></figure>
-                <figure><img src="assets/3.jpg"/></figure>
-                <figure><img src="assets/4.jpg"/></figure>
-                <figure><img src="assets/5.jpg"/></figure>
-                <figure><img src="assets/6.jpg"/></figure>
-                <figure><img src="assets/7.jpg"/></figure>
-                <figure><img src="assets/8.jpg"/></figure>
-                <figure><img src="assets/9.jpg"/></figure>
-                <figure><img src="assets/10.jpg"/></figure>
-                <figure><img src="assets/11.jpg"/></figure>
-                <figure><img src="assets/12.jpg"/></figure>
-            </div>
-        </section>
-        <section>
-            <header>
-                <span>Planos</span>
-                <h2>Confira nossos Planos</h2>
-                <p>Dê uma olhada nos planos mais recomendados!</p>
-            </header>
-            <div>
-                <div>
-                    <header>
-                        <div>    
-                            <span>Em Alta 🔥</span>
-                            <h3>Premium Elite Plus</h3>
+            <div class="feed-card-container">
+                <!-- primeiro -->
+                <div class="feed-card">
+                    <header class="feed-card-cabecalho">
+                        <div class="feed-card-cabecalho-detalhes">    
+                            <span class="destaque">Em Alta 🔥</span>
+                            <h3 class="feed-titulo">Premium Elite Plus</h3>
                         </div>
-                        <p>Extraordinário 4/4</p>
+                        <p class="feed-avaliacao">Extraordinário 4/4</p>
                     </header>
-                    <p>
+                    <p class="feed-descricao">
                         Um plano completo! Assinei e nao largo mais nunca!😍</p>
-                        <div>
+                        <div class="feed-autor">
                             <img src="https://avatars.githubusercontent.com/u/157068926?v=4"/>
-                            <span>João Pedro</span>
+                            <span class="feed-autor-nome">por <span class="nome-autor">João Pedro</span></span>
                         </div>
                     </p>
                 </div>
+                <!-- segundo
+                <div class="feed-card">
+                    <header class="feed-card-cabecalho">
+                        <div class="feed-card-cabecalho-detalhes">    
+                            <span class="destaque">Em Alta 🔥</span>
+                            <h3 class="feed-titulo">Premium Elite Plus</h3>
+                        </div>
+                        <p class="feed-avaliacao">Extraordinário 4/4</p>
+                    </header>
+                    <p class="feed-descricao">
+                        Um plano completo! Assinei e nao largo mais nunca!😍</p>
+                        <div class="feed-autor">
+                            <img src="https://avatars.githubusercontent.com/u/157068926?v=4"/>
+                            <span class="feed-autor-nome">por <span class="nome-autor">João Pedro</span></span>
+                        </div>
+                    </p>
+                </div> -->
+            
             </div>
+        </section>
     </main>
     <footer>
-        <p>Copyright &lt;EDITAAE /&gt; 2023</p>
-        <p>Feito para apresentar para o Lisboa.Codes</p>
+        <p class="footer-copy">Copyright &lt;EDITAAE /&gt; 2024</p>
+        <p class="footer-autor">Feito para apresentar para o <span class="span-autor">Lisboa.Codes</span></p>
     </footer>
 </body>
 </html>
