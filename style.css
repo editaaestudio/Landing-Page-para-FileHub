@@ -1,8 +1,20 @@
 *{
-    margin: 0px0;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
     /* background-color: #090909; */
-    text-shadow: none;
 }
 
+body{
+    background-color: #1f1517;
+    color: #FFFFFF;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
